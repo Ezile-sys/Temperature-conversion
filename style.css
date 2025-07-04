@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#submit{
+ padding: 5px 5px;
+ border: none;
+ border-radius: 8px;
+ font-size: 20px;
+ transition: background-color 0.35s ease, transform 0.35s ease;
+}
+#submit:hover{
+ background-color: green;
+ transform: translateY(-4px);
+}
